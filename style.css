@@ -1,0 +1,96 @@
+/***  FONTS ***/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+:root {
+    --primary-color:#d07ea7;
+    --primary-color-contrast: #ffffff;
+    --secondary-color:#202124;
+    --hover-color: #a58495;
+    /* --field-background-color: #ffffff; */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    color: var(--secondary-color);
+    
+}
+
+header {
+margin: 20px;
+min-height: 80px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+a{
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-family: 'Lora', serif;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 0 0 16px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--secondary-color);
+    margin: 0 0 48px;
+}
+
+button {
+    padding: 18px 54px;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: var(--primary-color);
+    color: var(--primary-color-contrast);
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 1s;  
+}
+
+button:hover {
+    background-color: var(--hover-color);
+    color: var(--primary-color-contrast);
+}
+
+input,
+textarea {
+  border: 2px solid;
+  border-radius: 2px;
+  border-color: var(--primary-color);
+  padding: 8px;
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+.hr {
+    border: 1px solid black;
+    margin: 0 auto 16px;
+    width: 50px;
+}
+
+.meus-dados {
+    
+}

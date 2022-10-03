@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sob medida</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="https://atelie-elisapazzini.negocio.site/">Ateliê Elisa Pazzini</a>
+        </header>
+
+        <main>
+            <h1>Encomenda Sob Medida</h1> 
+            <!-- Colocar H1 com boas palavras pro google procurar -->
+
+            <section class="meus-dados">
+                <hr class="hr">
+                <h2>Meus dados</h2>
+                <div id="dados">
+                    Nome: <input type="text" name="nome" id="nome">
+                    Data: <input type="datetime" name="data" id="data">
+                </div>
+                <div id="modelo">
+                    Modelo: <input type="file" name="modelo" id="modelo">
+                </div>
+            </section>
+
+            <section class="minhas-medidas">
+                <hr class="hr">
+                <h2>Minhas medidas</h2>
+                <div id="corpo-feminino">
+                    <img src="/assets/corpo-feminino-2.jpeg" alt="Desenho do corpo feminino">
+                </div>
+                <div id="medidas-contorno">
+                    <input type="number" name="pescoco" id="pescoco"> Pescoço <br>
+                    <input type="number" name="costado" id="costado"> Costado <br>
+                    <input type="number" name="busto" id="busto"> Busto <br>
+                    <input type="number" name="cintura" id="cintura"> Cintura <br>
+                    <input type="number" name="quadril" id="quadril"> Quadril <br>
+                </div>
+                <div id="medidas-altura">
+                    <input type="number" name="altombrocintura" id="altombrocintura"> Altura do ombro até a cintura <br>
+                    <input type="number" name="altcinturachao" id="altcinturachao"> Altura da cintura até o chão <br>
+                </div>
+                <div id="medidas-manga">
+                    <input type="number" name="compmanga" id="compmanga"> Comprimento da manga longa <br>
+                    <input type="number" name="bicpes" id="bicpes"> Contorno do bíceps <br>
+                </div>
+            </section>
+
+            <section class="conferindo">
+                <hr class="hr">
+                <h2>Conferindo...</h2>
+                <div id="resumo">
+                   
+                </div>
+                <div>
+                    <button id="enviar" onclick="enviar()">Tudo certo, enviar!</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                Projeto construído por Elisa Pazzini, com o objetivo de colocar em prática 
+                os conhecimentos de HTML, CSS e JavaScript aprendidos em cursos livres.
+                Primeira versão feita em Setembro de 2022.
+            </p>
+        </footer>
+
+        <!-- <script src="/script.js" type="module" ></script> -->
+    </body>
+
+</html>
